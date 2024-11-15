@@ -50,22 +50,12 @@ This project follows RESTful API design. Here is a summary of the API endpoints:
 ### 1. **Product API**
    - `POST /products`: Create a new product.
    - `GET /products`: View all products.
-   - `PUT /products/{id}`: Update the product (only if the product belongs to the logged-in user).
-   - `DELETE /products/{id}`: Delete a product (only if the product belongs to the logged-in user).
+   - `PUT /products/{id}`: Update the product.
+   - `DELETE /products/{id}`: Delete a product.
    
 ### 2. **Tax API**
    - `POST /tax/calculateFinalPriceIncludingTax`: Calculate tax for a product.
    - `POST /tax/calculateTaxAmount` : Calculating the taxAmount based on taxRate.
 
 
----
-
-## Getting Started
-
-### Prerequisites
-
-1. **Java 17+**: This project is built with Java 17.
-2. **Maven**: For building the project and managing dependencies.
-3. **PostgreSQL**: For storing product data.
-4. **MongoDB**: For logging tax calculation data.
 
