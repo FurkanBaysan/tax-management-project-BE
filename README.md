@@ -46,8 +46,8 @@ The project uses **PostgreSQL** for storing product data and **MongoDB** for sto
 Error Handling
 The application provides the following custom exceptions:
 
-EntityNotFoundException: Thrown when a requested entity (product) is not found.
-GlobalExceptionHandler: Handles and returns meaningful error responses for all exceptions.
+**EntityNotFoundException: Thrown when a requested entity (product) is not found.
+**GlobalExceptionHandler: Handles and returns meaningful error responses for all exceptions.
 
 ---
 ## API Documentation
